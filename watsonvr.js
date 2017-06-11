@@ -14,6 +14,6 @@ const params = {
 
 visual_recognition.classify(params, (err, res) =>
   (err)
-    ? console.log(err);
-    : console.log(JSON.stringify(res, null, 2));
+    ? console.log(err)
+    : console.log(JSON.stringify(res, null, 2))
 );
